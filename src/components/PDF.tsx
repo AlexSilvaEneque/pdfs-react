@@ -59,7 +59,7 @@ export default function PDFComponent({sale}:{sale : Sale | null}) {
 
 const styles = StyleSheet.create({
     page: {
-        fontSize: 12,
+        fontSize: 10,
         fontFamily: 'Courier',
         marginVertical: 10
     },
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
         padding: 10
     },
     tag: {
-        fontSize: 14,
+        fontSize: 11,
         marginBottom: 2
     },
     table: {
