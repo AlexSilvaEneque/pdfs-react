@@ -91,6 +91,7 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: '#000',
         borderStyle: 'solid',
+        fontSize: 8
     },
     cell: {
         flex: 1,
