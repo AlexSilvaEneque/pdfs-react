@@ -7,6 +7,6 @@ const PDF = dynamic(() => import("@/components/PDF"), {
 
 export default function Home() {
   return (
-      <PDF />
+      <div></div>
   )
 }
