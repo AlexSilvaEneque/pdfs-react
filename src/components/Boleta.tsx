@@ -11,8 +11,6 @@ export default function PDFComponent({sale}:{sale : SaleRojas | null}) {
                 <Document>
                     <Page size="A5" style={styles.page}>
                         {/* TODO: header */}
-                        
-                        {sale?.client.name}
                         <View style={{
                             paddingHorizontal: 2,
                             marginBottom: 8
