@@ -11,7 +11,8 @@ export default function PDFComponent({sale}:{sale : SaleRojas | null}) {
                 <Document>
                     <Page size="A5" style={styles.page}>
                         {/* TODO: header */}
-
+                        
+                        {sale?.client.name}
                         <View style={{
                             paddingHorizontal: 2,
                             marginBottom: 8
@@ -96,7 +97,7 @@ export default function PDFComponent({sale}:{sale : SaleRojas | null}) {
                                             alignSelf: 'center',
                                             paddingVertical: 6,
                                             color: "red"
-                                        }}>N° {sale?.numberNota}</Text>
+                                        }}>N° {sale?.numberNota!}</Text>
                                     </View>
                                     <Text style={{
                                         fontSize: 9,
