@@ -19,7 +19,7 @@ export default function PDFComponent({sale}:{sale : SaleRojas | null}) {
                                 display:'flex',
                                 flexDirection: 'row'
                             }}>
-                                <Image src={'/LOGO-MR.png'} style={{
+                                <Image src={'/logo-2.jpg'} style={{
                                     width: "15%"
                                 }} />
 
